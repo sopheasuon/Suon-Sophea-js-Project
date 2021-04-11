@@ -1,0 +1,173 @@
+body {
+    font-family: sans-serif;
+    background-image: url('https://www.coupleoftravels.com/wp-content/uploads/2020/07/shutterstock_1690343173.jpg');
+    background-size: cover;
+    background-position: center 0%;
+}
+.container {
+    margin: auto;
+    width: 39%; 
+}
+#search {
+    padding: 10px; 
+    margin-left: 30%;
+    display: flex;
+    margin-top: 8%;
+
+}
+#search input {
+    width: 54%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;  
+}
+#search ::placeholder {
+    color:black;  
+    
+}
+
+.btn-group {
+    display: flex;
+    padding: 10px;
+    margin-left: 65%;
+    margin-top: 3%;
+}
+button {
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+    border:none;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px #69646d;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-container {
+    background: #fff;
+    width: 36%;
+    padding: 10px;
+    box-shadow: 1px 1px 2px #eee;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 31%;
+    margin-top: 0%;
+    
+}
+
+.form-container input[type='text']{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px 0;
+    outline: none;
+}
+.form-container input[type='date']{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px 0;
+    color: black;
+    cursor: pointer;
+}
+.form-container input[type='number'],
+input[type='tel']{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px 0;
+}
+.form-container button{
+    width: 30%;
+    padding: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background: #f39c12;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 33%;
+
+    
+}
+.card-container{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+.card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.delete {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.row{
+    width: 400px;
+    margin-top: 130px;
+    margin-left: 440px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+   
+}
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='date']{
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+input[type='submit']{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: white;
+    border-radius: 40px;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+}
+h1{
+    margin-top: 13%;
+    margin-left: 33%;
+}
+h2{
+    margin-top: 0%;
+    margin-left: 40%;
+}
+h3{
+    margin-top: 0%;
+    margin-left: 47%;
+}
+
+.logOut{
+    width: 8%;
+    height: 6vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 87%;
+    cursor: pointer;
+}

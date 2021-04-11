@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-PROJECT</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<!-- Button to show    -->
+  <div class="btn-group">
+    <button type="button" id="btn-ListInfo">List info</button>
+    <button type="button" id="btn-property">List your property</button>
+  </div>
+  <!-- ==== Search====== -->
+  <div id="search">
+    <input type="text" id="searchId" placeholder="Search name">
+  </div>
+  <!-- Add Place -->
+  <div class="form-container">
+    <form>
+      <div>
+        <input type="text" id="add-place" placeholder="Add place ..." />
+      <div>
+      </div>
+        <label for="" >Username</label>
+        <input type="text" id="add-username">
+      </div>
+      <div>
+        <label for="">Phone Number</label>
+        <input type="tel" id="add-phone"> 
+      </div>
+      <div>
+        <label for="">Country</label>
+        <input type="text" id="add-country">
+      </div>
+      <div> 
+        <label for="">Check-in</label>
+        <input type="date" id="add-checkIn">
+      </div>
+      <div> 
+        <label for="">Check-out</label>
+        <input type="date" id="add-checkOut" />
+      </div>
+      <div> 
+        <label for="">Member</label>
+        <input type="number" id="add-mumber" />
+      </div>
+      <div>
+        <button id ="add">Add</button>
+      </div>
+    </form>
+  </div>
+<!-- Card list -->
+  <div class="card-container">
+    <div class="card">
+      <span class="card-place">Angkor wat</span>
+      <span class="card-username">Rotha San</span>
+      <span class="card-phone">012 345 6789</span>
+      <span class="card-country">Cambodain</span>
+      <span class="card-checkIn">2021-04-10</span>
+      <span class="card-checkOut">2021-04-15</span>
+      <span class="card-mumber">10</span>
+      <span class="delete">x</span>
+    </div>
+    <div class="card">
+      <span class="card-place">Banteay Chmar</span>
+      <span class="card-username">Sreypich Thor</span>
+      <span class="card-phone">012 345 6789</span>
+      <span class="card-country">Cambodain</span>
+      <span class="card-checkIn">2021-04-07</span>
+      <span class="card-checkOut">2021-04-15</span>
+      <span class="card-mumber">14</span>
+      <span class="delete">x</span>
+    </div>
+    <div class="card">
+      <span class="card-place">Chau Say Tevoda</span>
+      <span class="card-username">Senghav Sin</span>
+      <span class="card-phone">012 345 6789</span>
+      <span class="card-country">Cambodain</span>
+      <span class="card-checkIn">2021-04-07</span>
+      <span class="card-checkOut">2021-04-16</span>
+      <span class="card-mumber">5</span>
+      <span class="delete">x</span>
+    </div>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
